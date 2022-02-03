@@ -1,0 +1,38 @@
+- id: blog
+  translation: "お知らせ"
+
+- id: blogs
+  translation: "お知らせ"
+
+- id: notices
+  translation: "インフォメーション"
+  
+- id: events
+  translation: "社内行事"
+  
+- id: pickup
+  translation: "お薦め"
+  
+- id: new
+  translation: "新着"
+
+- id: office
+  translation: "事業所案内"
+  
+- id: offices
+  translation: "事業所案内"
+  
+- id: tag
+  translation: "タグ"
+  
+- id: tags
+  translation: "タグ"
+  
+- id: categories
+  translation: "カテゴリー"
+
+- id: baseball
+  translation: "野球部"
+
+- id: baseballs
+  translation: "野球部"

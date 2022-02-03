@@ -1,0 +1,31 @@
+{{ define "title" }}{{ .Title }} - {{ end }}
+
+{{ define "main" }}
+{{ partial "breadcrumb.sdkk.html" . }}
+
+<div class="row">
+  <div class="col-sm-9">
+
+    {{ if not .IsHome }}
+    <div class="page-header2 text-left">
+      <h2 class="headline rich_font h1_title">{{ i18n (lower .Title) . | default .Title }}</h2>
+    </div>
+    {{ end }}
+
+    <ul class="p-terms">
+      {{ $data := .Data }}
+      {{ range $key, $value := .Data.Terms }}
+      <li>
+        <h2 class="terms-title">
+          <a href="{{ $.Site.BaseURL }}{{ $data.Plural }}/{{ $key | urlize }}">{{ i18n (lower $key) . | default $key }}</a> ({{ len $value }})
+        </h2>
+      </li>
+      {{ end }}
+    </ul>
+
+  </div>
+  <div class="col-sm-3">
+    {{ partial "sidebar.sdkk.html" . }}
+  </div>
+</div>
+{{ end }}

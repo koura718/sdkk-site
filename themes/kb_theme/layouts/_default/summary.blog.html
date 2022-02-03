@@ -1,0 +1,19 @@
+<article class="single">
+
+  <div class="content-inner">
+
+    <ul class="list-inline post-detail pull-right info-subbox">
+      <li><small><i class="fa fa-map-marker"></i>{{ range .Params.categories }} <a href="{{ $.Site.BaseURL }}categories/{{ . | urlize }}">{{ i18n . . | default . }}</a>{{ end }}</small></li>
+      <li><small><i class="fa fa-calendar" aria-hidden="true"></i> <time datetime="{{ .Lastmod.Format "2006-01-02T15:04:05JST" }}">{{ .Lastmod.Format ( .Site.Params.dateformat | default "2006.01.02") }}</time></small>&nbsp;</li>
+    </ul>
+
+  <div class="article-blog-body">{{ .Content }}</div>
+  </div>
+
+  <footer class="article-footer">
+    <div class="text-center">
+    {{ partial "nav_content.sdkk.html" . }}
+    </div>
+  </footer>
+
+</article>

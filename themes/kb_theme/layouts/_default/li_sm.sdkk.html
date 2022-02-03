@@ -1,0 +1,7 @@
+              <li class="media"> <a class="media-left" href="{{ .Permalink }}"> <img src="{{ with .Params.thumbnail }}{{ $.Site.BaseURL }}{{ . }}{{ end }}" alt="{{ .Title }}" width="80" height="55" class=""> </a>
+                <div class="media-body">
+                  <h4 class="media-heading"><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+                  <span><small><i class="fa fa-calendar" aria-hidden="true"></i> <time datetime="{{ .Lastmod.Format "2006-01-02T15:04:05JST" }}">{{ .Lastmod.Format ( .Site.Params.dateformat | default "2006.01.02") }}</time></small>{{ if in .Params.tags "new" }} <img src="images/ico_new2a_1.gif">{{ end }}</span>
+                  <div>{{/* .Summary */}}</div>
+                </div>
+              </li>

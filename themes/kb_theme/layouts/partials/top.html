@@ -1,0 +1,19 @@
+{{ $.Scratch.Set "title" "" }}
+{{ if eq "office" .Section }}
+    {{ $.Scratch.Set "title" (lower .Section) }}
+{{ else if eq "blog" .Section }}
+    {{ if .IsNode }}
+        {{ $.Scratch.Set "title" (lower .Title) }}
+    {{ else }}
+        {{ range .Params.categories }}{{ $.Scratch.Set "title" (lower . ) }}{{ end }}
+    {{ end }}
+{{ else}}
+    {{ $.Scratch.Set "title" (lower .Title) }}
+{{ end }}
+<!--▼ ジャンボトロン -->
+<div class="jumbotron text-center" style="background: url('{{ .Site.BaseURL }}{{ .Site.Params.Topimage }}');background-size: cover;background-position: center center;">
+  <div class="container">
+    <h1 class="rich_font text-center Style-Attribute">{{ i18n ($.Scratch.Get "title") . | default ($.Scratch.Get "title") }}</h1>
+  </div>
+  <!-- /container --> 
+</div>

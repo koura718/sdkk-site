@@ -1,0 +1,46 @@
+<!--ナビゲーションここから-->
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      <a class="navbar-brand" href="{{ .Site.BaseURL }}"><img src="images/logo.png" alt="Brand" class="nav_logo"></a> </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="{{ .Site.BaseURL }}"><i class="glyphicon glyphicon-home"></i> ホーム</a> </li>
+        <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" aria-haspopup="true"><i class="fa fa-pencil-square"></i> 会社概要 <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="{{ .Site.BaseURL }}vision/">理念・代表挨拶</a> </li>
+            <li><a href="{{ .Site.BaseURL }}company/">会社案内</a> </li>
+            <li><a href="{{ .Site.BaseURL }}welfare/">福利厚生</a> </li>
+          </ul>
+        </li>
+        <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" aria-haspopup="true"><i class="fa fa-plus-square"></i> 事業所案内 <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="{{ .Site.BaseURL }}office/fukuoka/">本社</a> </li>
+            <li><a href="{{ .Site.BaseURL }}office/minami/">南営業所</a> </li>
+            <li><a href="{{ .Site.BaseURL }}office/higashi/">東営業所</a> </li>
+            <li><a href="{{ .Site.BaseURL }}office/chikuhou/">筑豊営業所</a> </li>
+            <li><a href="{{ .Site.BaseURL }}office/asakura/">朝倉営業所</a> </li>
+            <li><a href="{{ .Site.BaseURL }}office/okinawa/">沖縄営業所</a> </li>
+            <li><a href="{{ .Site.BaseURL }}office/sdlife_co_ltd/">㈱エスデイライフ</a> </li>
+          </ul>
+        </li>
+        <li><a href="{{ .Site.BaseURL }}business/"><i class="fa fa-flag"></i> 事業案内</a> </li>
+        <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" aria-haspopup="true"><i class="fa fa-info-circle"></i> お知らせ <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="{{ .Site.BaseURL }}categories/notices/">インフォーメーション</a> </li>
+            <li><a href="{{ .Site.BaseURL }}categories/events/">社内行事</a> </li>
+          </ul>
+        </li>
+        <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" aria-haspopup="true"><i class="fa fa-plus-square"></i> 採用案内 <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="{{ .Site.BaseURL }}recruit/index.html">採用情報</a> </li>
+            <li><a href="{{ .Site.BaseURL }}recruit/index.html#career-voice">先輩社員の声</a> </li>
+          </ul>
+        </li>
+        <li><a href="{{ .Site.BaseURL }}inquiry/"><i class="fa fa-info-circle"></i> お問い合せ</a> </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!--ナビゲーションここまで--> 

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+{{string "    <!--[if lt IE 7]><html lang=\"ja\" class=\"no-js lt-ie9 lt-ie8 lt-ie7\" prefix=\"og: http://ogp.me/ns#\"><![endif]-->"| safeHTML }}
+{{string "    <!--[if IE 7]><html lang=\"ja\" class=\"no-js lt-ie9 lt-ie8\" prefix=\"og: http://ogp.me/ns#\"><![endif]-->"| safeHTML }}
+{{string "    <!--[if IE 8]><html lang=\"ja\" class=\"no-js lt-ie9\" prefix=\"og: http://ogp.me/ns#\"><![endif]-->"| safeHTML }}
+{{string "    <!--[if gt IE 8]><!-->"| safeHTML }}
+<html lang="ja" class="no-js" prefix="og: http://ogp.me/ns#">
+{{string "    <!--<![endif]-->"| safeHTML }}
+
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+    <!-- head -->
+    <meta charset="utf-8">
+    <base href="{{ .Site.BaseURL }}" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- mobile settings -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+    <title>{{ block "title" . }}{{ end }}{{ .Site.Title }}</title>
+    {{ block "meta" . }}{{ end }}
+	<link rel="icon" type="image/vnd.microsoft.icon" href="{{ .Site.BaseURL }}images/favicon.ico">
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="Author" content="" />
+    <link rel="canonical" href="{{ .Permalink }}">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/solarized_dark.min.css" rel="stylesheet">
+    <!-- webfont -->
+    <link href="//fonts.googleapis.com/css?family=Comfortaa:400,300,700" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro:400,300,700" rel="stylesheet" type="text/css">
+    {{ if .IsHome }}
+	<link href="{{ .Site.BaseURL }}vendor/slider-pro/css/slider-pro.min.css" rel="stylesheet">
+    <link href="{{ .Site.BaseURL }}css/custom_slider-pro.css" rel="stylesheet">
+	{{ end }}
+    {{/* <link href="{{ .Site.BaseURL }}css/custom_base.css" rel="stylesheet"> */}}
+    <link href="{{ .Site.BaseURL }}css/zoom.css" rel="stylesheet">
+    <link href="{{ .Site.BaseURL }}css/custom_style.css" rel="stylesheet">
+    <link href="{{ .Site.BaseURL }}css/custom.css?1" rel="stylesheet">
+
+    <style>
+    </style>
+{{string "    <!--[if IE]><meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\"><![endif]-->"| safeHTML }}
+{{string "    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->"| safeHTML }}
+{{string "    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->"| safeHTML }}
+{{string "    <!--[if lt IE 9]>"| safeHTML }}
+    <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+{{string "    <![endif]-->"| safeHTML }}
+</head>
+
+<body>
+<header>
+{{ partial "nav_top.html" . | safeHTML }}
+{{ if .IsHome }}{{ block "slide" .  | safeHTML }}{{ end }}
+{{ else }}{{ partial "top.html" . }}
+{{ end }}
+</header>
+<main id="main" class="container">
+{{ block "main" . }}{{ end }}
+</main>
+<footer>
+{{ partial "footer.html" . }}
+</footer>
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/jquery-migrate-3.0.0.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+<script src="js/zoom.min.js"></script>
+<script>
+    hljs.initHighlightingOnLoad();
+</script>
+{{/* if isset .Site.Sections .Section */}}
+{{ if eq "office" .Section }}
+<!--google map api  取得用▼	--> 
+<script src="//maps.googleapis.com/maps/api/js?key=AIzaSyC8cmOjBkKGv4HxM4_8H7sAtivyTCR9bBA"></script> 
+<!-- jQuery (google map 表示用) --> 
+<script src="{{ .Site.BaseURL }}js/custom_map.js?1"></script>
+<!--google map  表示用ここまで-->
+{{ end }}
+{{/* end */}}
+{{ if .IsHome }}
+<script src="{{ .Site.BaseURL }}vendor/slider-pro/js/jquery.sliderPro.min.js"></script>
+<script src="{{ .Site.BaseURL }}js/custom_slider-pro.js?1"></script>
+{{ end }}
+<script src="{{ .Site.BaseURL }}js/custom.js?v=20180712"></script>
+</body>
+</html>
