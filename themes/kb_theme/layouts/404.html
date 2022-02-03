@@ -1,0 +1,19 @@
+{{ define "title" }}{{ if not .IsHome }}{{ .Title }} - {{ end }}{{ end }}
+
+{{ define "main" }}
+<header class="page-header">
+  <h1>{{ .Title }}</h1>
+</header>
+
+  <div class="container">
+    <div class="row text-center"> 
+      <h2>ページが見つかりません</h2>
+
+<p>ご指定のURLは、このサーバでは見つかりませんでした。<br />該当URLが変更になったか、あるいはタイプミスの可能性があります。<br />URLをご確認の上、もう一度お試し頂くか、下記のリンクをご利用下さい。</p>
+      
+<a href="{{ $.Site.BaseURL }}">三共電気トップページへ</a><br/>
+<a href="{{ $.Site.BaseURL }}sitemap/">サイトマップへ</a>
+
+    </div>
+  </div>
+{{ end }}

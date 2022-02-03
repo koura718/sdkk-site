@@ -1,0 +1,169 @@
++++
+draft = false
+date = "2017-01-27T09:52:34+09:00"
+title = "事業案内"
++++
+[]()
+        <div class="page-header2 text-left">
+          <h2 class="headline rich_font h1_title">はじめに</h2>
+        </div>
+        <div class="content clearfix">
+          <div class="post_content">
+            <p>　世に一流と言われる人や技は数多くありますが、「超」がつくとなると、その数はたちまち少なくなってしまいます。<br>
+              　ある程度のレベルには、ある程度の努力と時間を要すれば、達することが出来るでしょう。しかし、それ以上をめざすには、他の要素が必要になってきます。<br>
+              　例えば、企業にあっては、資本力、商品力、社長の経営手腕等が一流のレベルを支える要素なら、優れた人材と彼らが生み出す推進力、次代を見通す観察力や対応力が超一流へと押し上げる要素ではないでしょうか。<br>
+            </p>
+            <p>　三共電気株式会社は、大手同業者に対して、”土俵が違う”と戦わずしてあきらめるのではなく、基本要素を確立させながらも、ナンバー１をめざして挑戦を続けて参ります。 </p>
+          </div>
+        </div>
+        <div class="page-header2 text-left margin-t-20">
+          <h2 class="headline rich_font h1_title">業務内容</h2>
+        </div>
+        <div class="content clearfix">
+          <div class="post_content">
+            <div class="post_content">
+            <div class="font_box">
+            <div class="business4"><span>content 1.</span>電気設備資材総合卸</div>
+            <div class="business4"><span>content 2.</span>空調機器販売及び設計施設・保守管理</div>
+            <div class="business4"><span>content 3.</span>ビル・住宅等設備機器</div>
+            <div class="business4"><span>content 4.</span>一般家庭用業務電化製品</div>
+            <div class="business4"><span>content 5.</span>工作機器及び電動工具</div>
+            <div class="business4"><span>content 6.</span>OA・ファクシミリ・電話機・情報機器等の販売</div>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="page-header2 text-left margin-t-20">
+          <h2 class="headline rich_font h1_title">主な取引メーカー</h2>
+        </div>
+        <div class="content clearfix">
+          <div class="post_content">
+            <p>　三共電気株式会社が取り扱う機材は多種多彩。<br>
+              いずれも優れた技術を有するメーカーを吟味して、私たちが安心してお客様にお勧め出来る確かな製品ばかりを扱うようにしております。<br>
+              また、共存共栄の精神で、仕入れ先メーカーとは密に情報交換を行い、お客様のお役に立てるよう体制を整えております。 </p>
+          </div>
+        </div>
+        <!--表▼-->
+        <table class="biz-table">
+          <tr>
+            <th class="th_link"><a href="http://www.aiphone.co.jp/" target="_blank">アイホン株式会社</a></th>
+            <td>インターホン類</td>
+          </tr>
+          <tr>
+            <th><a href="https://www.inaba.co.jp/" target="_blank">因幡電機産業株式会社</a></th>
+            <td>電設資材専門商社</td>
+          </tr>
+          <tr>
+            <th><a href="http://www.iwasaki.co.jp/" target="_blank">岩崎電気株式会社</a></th>
+            <td>照明機器（街灯・施設等）</td>
+          </tr>
+          <tr>
+            <th><a href="https://www.endo-lighting.co.jp/" target="_blank">株式会社遠藤照明</a></th>
+            <td>照明機器（店舗・住宅等）</td>
+          </tr>
+          <tr>
+            <th><a href="http://www.odelic.co.jp/" target="_blank">オーデリック株式会社</a></th>
+            <td>照明機器（店舗・住宅等）</td>
+          </tr>
+          <tr>
+            <th><a href="http://www.kanafuji.co.jp/" target="_blank">カナフジ電工株式会社</a></th>
+            <td>配管材（鋼管製品）</td>
+          </tr>
+          <tr>
+            <th><a href="http://www.kanaflex.co.jp/" target="_blank">カナフレックスコーポレーション株式会社</a></th>
+            <td>埋設配管材</td>
+          </tr>
+          <tr>
+            <th><a href="http://www.kawamura.co.jp/" target="_blank">河村電器産業株式会社</a></th>
+            <td>配電盤（住宅及びビル・工場用）</td>
+          </tr>
+          <tr>
+            <th><a href="http://www.koizumi-lt.co.jp/" target="_blank">コイズミ照明株式会社</a></th>
+            <td>照明器具（店舗・住宅等）</td>
+          </tr>
+          <tr>
+            <th><a href="http://www.jimbodenki.co.jp/" target="_blank">神保電器株式会社</a></th>
+            <td>配線器具類</td>
+          </tr>
+          <tr>
+            <th><a href="http://www.sei-shin.jp/" target="_blank">誠新産業株式会社</a></th>
+            <td>総合技術商社</td>
+          </tr>
+          <tr>
+            <th><a href="http://www.senden.co.jp/" target="_blank">泉州電業株式会社</a></th>
+            <td>電線全般</td>
+          </tr>
+          <tr>
+            <th><a href="http://www.daikin.co.jp/group/dkhvac-kyushu/" target="_blank">ダイキンHVACソリューション九州株式会社</a></th>
+            <td>空調機器</td>
+          </tr>
+          <tr>
+            <th><a href="http://www.lighting-daiko.co.jp/" target="_blank">大光電機株式会社</a></th>
+            <td>照明器具（店舗・住宅等）</td>
+          </tr>
+          <tr>
+            <th><a href="http://www.dxantenna.co.jp/" target="_blank">DXアンテナ株式会社</a></th>
+            <td>アンテナ類全般</td>
+          </tr>
+          <tr>
+            <th><a href="http://www.densei-k.co.jp/" target="_blank">電成興業株式会社</a></th>
+            <td>配管材・ボックス類（鋼板製）</td>
+          </tr>
+          <tr>
+            <th><a href="http://www.tlt.co.jp/tlt/" target="_blank">東芝ライテック株式会社</a></th>
+            <td>照明器具・電設資材全般</td>
+          </tr>
+          <tr>
+            <th><a href="http://www.tec-web.co.jp/" target="_blank">東神電気株式会社</a></th>
+            <td>電設資材全般</td>
+          </tr>
+          <tr>
+            <th><a href="http://www.togami-elec.co.jp/" target="_blank">株式会社戸上電機製作所</a></th>
+            <td>高圧機器</td>
+          </tr>
+          <tr>
+            <th><a href="http://www.nd-ele.co.jp/" target="_blank">日動電工株式会社</a></th>
+            <td>配管材（ビニール製品）</td>
+          </tr>
+          <tr>
+            <th><a href="http://www.nissin-d.co.jp/" target="_blank">日新電工株式会社</a></th>
+            <td>配電盤（製作品）</td>
+          </tr>
+          <tr>
+            <th><a href="http://www.nittan.com/" target="_blank">ニッタン株式会社</a></th>
+            <td>火災警報類</td>
+          </tr>
+          <tr>
+            <th><a href="http://www.nippon-antenna.co.jp/" target="_blank">日本アンテナ株式会社</a></th>
+            <td>アンテナ類全般</td>
+          </tr>
+          <tr>
+            <th><a href="http://www.negurosu.co.jp/" target="_blank">ネグロス電工株式会社</a></th>
+            <td>配管材（鋼管製品）</td>
+          </tr>
+          <tr>
+            <th><a href="http://www.hitachi-apgroup.jp/hitachiacs-kyushu/" target="_blank">日立空調九州株式会社</a></th>
+            <td>空調機器</td>
+          </tr>
+          <tr>
+            <th><a href="http://www.makita.co.jp/" target="_blank">株式会社マキタ</a></th>
+            <td>工具全般</td>
+          </tr>
+          <tr>
+            <th><a href="http://www.masarukk.co.jp/" target="_blank">マサル工業株式会社</a></th>
+            <td>配管材（モール関係）</td>
+          </tr>
+          <tr>
+            <th><a href="http://www.mirai.co.jp/" target="_blank">未来工業株式会社</a></th>
+            <td>配管材（ビニール製品）</td>
+          </tr>
+          <tr>
+            <th><a href="http://www.yamagiwa.co.jp/" target="_blank">株式会社YAMAGIWA</a></th>
+            <td>照明機器（店舗・住宅等）</td>
+          </tr>
+          <tr>
+            <th><a href="http://www.yamada-shomei.co.jp/" target="_blank">山田照明株式会社</a></th>
+            <td>照明機器（店舗・住宅等）</td>
+          </tr>
+        </table>
+        <!--表▲-->

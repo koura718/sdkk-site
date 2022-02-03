@@ -1,0 +1,8 @@
+        <div class="thumbnail"> <img src="{{ with .Params.thumbnail }}{{ $.Site.BaseURL }}{{ . }}{{ end }}" alt="{{ .Title }}" class="img-responsive">
+          <div class="caption">
+            <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+            <div class=""><span><small><i class="fa fa-calendar" aria-hidden="true"></i> <time datetime="{{ .Lastmod.Format "2006-01-02T15:04:05JST" }}">{{ .Lastmod.Format ( .Site.Params.dateformat | default "2006.01.02") }}</time></small>{{ if in .Params.tags "new" }} <img src="images/ico_new2a_1.gif">{{ end }}</span></p>
+            <p>{{ .Summary }}</div>
+            <p><a href="{{ .Permalink }}" class="btn btn-primary" role="button"><span class="glyphicon glyphicon glyphicon-search" aria-hidden="true"></span> 詳しく見る</a></p>
+          </div>
+        </div>

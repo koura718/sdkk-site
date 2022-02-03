@@ -1,0 +1,7 @@
+            <a href="{{ .Permalink }}">
+            <img src="{{ with .Params.thumbnail }}{{ $.Site.BaseURL }}{{ . }}{{ end }}" class="img-responsive img-thumbnail" alt="{{ .Title }}"></a>
+            <div class="media-body">
+              <h4 class="media-heading"><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+              <div>{{ .Summary }}</div>
+            </div>
+            

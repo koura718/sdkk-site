@@ -1,0 +1,26 @@
+{{ $src := (.Get "src") | default "blog/images/1.gif" }}
+{{ $alt := (.Get "alt") | default "" }}
+{{ $src2 := (.Get "src-2") | default "blog/images/1.gif" }}
+{{ $alt2 := (.Get "alt-2") | default "" }}
+<section class="note margin-t-20">
+<div class="row">
+  <div class="col-sm-5 col-sm-offset-1">
+  <figure>
+  <img src="{{ $src }}" alt="{{ $alt }}"
+       class="img-responsive" data-action="zoom" />
+{{ if ne $alt "" }}
+  <figcaption>{{ $alt }}</figcaption>
+{{ end }}
+  </figure>
+  </div>
+  <div class="col-sm-5">
+  <figure>
+  <img src="{{ $src2 }}" alt="{{ $alt2 }}"
+       class="img-responsive" data-action="zoom" />
+{{ if ne $alt2 "" }}
+  <figcaption>{{ $alt2 }}</figcaption>
+{{ end }}
+  </figure>
+  </div>
+</div>
+</section>

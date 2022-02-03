@@ -1,0 +1,45 @@
+{{ define "title" }}{{ if not .IsHome }}{{ .Title }} - {{ end }}{{ end }} 
+{{ define "main" }}
+  <!--  /*三共電気インフォメーション▼*/-->
+  <div> 
+    <div class="row page-header text-center">
+      <h2 class="headline rich_font">三共電気インフォメーション</h2>
+    </div>
+  <!--  /*三共電気インフォメーション▲*/--> 
+  <!--  6個のかたまり▼-->
+    <div class="row text-center">
+  
+    {{ if isset .Site.Taxonomies.categories "notices" }}
+    {{ range $i, $p := (first 3 .Site.Taxonomies.categories.notices).Pages }}
+      <div class="col-sm-4">{{ $p.Render "li.sdkk" }}</div>
+    {{ end }}
+    {{ end }}
+    <!--お知らせ一覧へボタン▼-->
+    </div>
+    <div class="row text-center ici">
+      <div class="col-sm-12"> <span style="margin:15px;"><a href="{{ .Site.BaseURL }}categories/notices/">
+        <button class="btn btn-info btn-lg"><span class="glyphicon glyphicon-search" aria-hidden="true"></span> お知らせ一覧へ</button></a>
+        </span> </div>
+    </div>
+    <!--お知らせ一覧へボタン▲--> 
+
+    <div class="row text-center">
+    {{ if isset .Site.Taxonomies.categories "events" }}
+    {{ range $i, $p := (first 3 .Site.Taxonomies.categories.events).Pages }}
+      <div class="col-sm-4">{{ $p.Render "li.sdkk" }}</div>
+    {{ end }}
+    {{ end }}
+    <!--イベント一覧へボタン▼-->
+    </div>
+    <div class="row text-center ici">
+      <div class="col-sm-12"> <span style="margin:15px;"><a href="{{ .Site.BaseURL }}categories/events/">
+        <button class="btn btn-info btn-lg"><span class="glyphicon glyphicon-search" aria-hidden="true"></span> イベント一覧へ</button></a>
+        </span> </div>
+    </div>
+    <!--イベント一覧へボタン▲--> 
+  </div>
+{{ end }}
+{{ define "slide"}}
+<div id="app"></div>
+<script src="/dist/build.js"></script>
+{{ end }}

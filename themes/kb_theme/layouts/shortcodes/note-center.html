@@ -1,0 +1,13 @@
+{{ $src := (.Get "src") | default "blog/images/default.jpg" }}
+{{ $alt := (.Get "alt") | default "" }}
+<section class="note margin-t-20">
+<div class="row">
+  <div class="col-sm-8 col-sm-offset-2">
+    <figure class="center-block"><img 
+     src="{{ $src }}"
+     alt="{{ $alt }}"
+     class="img-responsive center-block" data-action="zoom" />
+{{ if ne $alt "" }}
+	 <figcaption>{{ $alt }}</figcaption>
+{{ end }}
+	 </figure>

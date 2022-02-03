@@ -1,0 +1,20 @@
+<div class="row">
+  <div class="col-sm-9">
+    <nav class="">
+      <ol class="breadcrumb breadcrumb_pan">
+        <li><a href="{{ .Site.BaseURL }}"><i class="glyphicon glyphicon-home" aria-hidden="true"></i> ホーム</a></li>
+        {{ with .Section }}
+		  {{ if ne "blog" . }}
+        <li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="{{ $.Site.BaseURL }}{{ . | urlize }}/" itemprop="url"><span itemprop="title">{{ i18n . . | default . }}</span></a></li>
+          {{ end }}
+        {{ end }}
+		{{ if or (in .Params.categories "events") (in .Params.categories "notices") }}
+		  {{ range .Params.categories }}{{ $.Scratch.Set "category" . }}{{ end }}
+		  {{ $cate := $.Scratch.Get "category"}}
+        <li><a href="{{ $.Site.BaseURL }}categories/{{$cate}}" itemprop="url"><span itemprop="title">{{ i18n $cate . }}</span></a></li>
+        {{ end }}
+        <li class="active">{{ i18n (lower .Title) . | default .Title }}</li>
+      </ol>
+    </nav>
+  </div>
+</div>

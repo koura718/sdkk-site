@@ -1,0 +1,73 @@
+<aside class="site">
+        <!--お勧めバナー-->
+        <div class="panel panel-default">
+          <div class="panel-heading">Pick up NEWS!</div>
+          <div class="panel-body">
+{{ if isset .Site.Taxonomies.tags "pickup" }}
+{{ range $i, $p := (first 1 .Site.Taxonomies.tags.pickup).Pages }}
+{{ $p.Render "pickup" }}
+{{ end }}
+{{ end }}
+          </div>
+        </div>
+        <!--/お勧めバナー--> 
+
+
+        <!--ブログ記事一覧  -->
+        <div class="panel panel-default">
+          <div class="panel-heading"><a href="{{ $.Site.BaseURL }}categories/notices">{{ i18n "notices" . }}</div>
+          <div class="panel-body">
+            <ul class="media-list">
+{{ if isset .Site.Taxonomies.categories "notices" }}
+{{ range $i, $p := (first .Site.Params.side_blog_num .Site.Taxonomies.categories.notices).Pages }}
+{{ $p.Render "li_sm.sdkk" }}
+{{ end }}
+{{ end }}
+            </ul>
+          </div>
+        </div>
+        <!--/ブログ記事一覧 --> 
+
+        <!--ブログ記事一覧  -->
+        <div class="panel panel-default">
+          <div class="panel-heading"><a href="{{ $.Site.BaseURL }}categories/events">{{ i18n "events" . }}</a>
+</div>
+          <div class="panel-body">
+            <ul class="media-list">
+{{ if isset .Site.Taxonomies.categories "events" }}
+{{ range $i, $p := (first .Site.Params.side_blog_num .Site.Taxonomies.categories.events).Pages }}
+{{ $p.Render "li_sm.sdkk" }}
+{{ end }}
+{{ end }}
+            </ul>
+          </div>
+        </div>
+        <!--/ブログ記事一覧 --> 
+
+        <div class="panel panel-default">
+        <div class="panel-heading">カテゴリー</div>
+        <!-- List group -->
+        <ul class="list-group">
+{{ if isset .Site.Taxonomies "categories" }}
+{{ range $key, $taxonomy := .Site.Taxonomies.categories }}
+          <li class="list-group-item"><a href="{{ $.Site.BaseURL }}categories/{{ $key | urlize }}">{{ i18n $key . | default $key }}</a></li>
+{{ end }}
+{{ end }}
+        </ul>
+        </div>
+
+        <!--/カテゴリ一覧 --> 
+        <!--たぐくらうど  -->
+        <div class="panel panel-default tagcloud">
+          <div class="panel-heading">タグ</div>
+          <ul>
+
+{{ if isset .Site.Taxonomies "tags" }}
+{{ range $key, $taxonomy := $.Site.Taxonomies.tags }}
+            <li><a href="{{ $.Site.BaseURL }}tags/{{ $key | urlize }}">{{ i18n $key . | default $key }}</a></li>
+{{ end }}
+{{ end }}
+          </ul>
+        </div>
+
+</aside>

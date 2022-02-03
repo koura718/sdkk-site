@@ -1,0 +1,84 @@
++++
+draft = false
+date = "2017-02-21T09:52:34+09:00"
+title = "福利厚生"
++++
+
+<article class="single">
+  <div class="content-inner">
+  <div class="article-body note">
+    <div class="page-header2 text-left">
+      <h2 class="headline rich_font h1_title">各種手当</h2>
+    </div>
+    <div class="row">
+      <div class="col-sm-10 col-sm-offset-1">
+      <h3>通勤手当</h3>
+          <p>&nbsp;</p>
+      <h3>各種社会保険完備</h3>
+          <p>　健康保険・厚生年金・雇用保険・労災保険を完備しています。</p>
+      </div>
+    </div>
+    <div class="page-header text-left">
+    <h2 class="headline rich_font h1_title">ヘルスケア</h2>
+    </div>
+    <div class="row">
+      <div class="col-sm-10 col-sm-offset-1">
+      <h3>健康診断</h3>
+          <p>　年に1回、健康診断を実施しています。</p>
+      </div>
+    </div>
+    <div class="page-header text-left">
+      <h2 class="headline rich_font h1_title">休暇</h2>
+    </div>
+    <div class="row">
+      <div class="col-sm-10 col-sm-offset-1">
+      <h3>年末年始/夏季休暇</h3>
+          <p>　年末年始及び夏季に取得できるお休みです。当社カレンダーに準じます。</p>
+      <h3>有給休暇</h3>
+          <p>　入社年数に応じて、年次有給休暇が付与されます。</p>
+      </div>
+    </div>
+    <div class="page-header text-left">
+      <h2 class="headline rich_font h1_title">社内イベント</h2>
+    </div>
+    <section class="note margin-t-20">
+    <div class="row">
+      <div class="col-sm-6">
+      <h3>社員旅行</h3>
+          <p>　年1回、社員旅行があります。</p>
+      <h3>忘年会</h3>
+          <p>　年末に、忘年会を催しています。</p>
+      </div>
+      <div class="col-sm-6">
+        <img src="images/fukurikousei.jpg" alt="社員旅行・忘年会" class="img-responsive img-thumbnail pull-left" data-action="zoom" />
+      </div>
+    </div>
+    </section>
+    <div class="page-header text-left">
+      <h2 class="headline rich_font h1_title">部活動</h2>
+    </div>
+    <section class="note margin-t-20">
+    <div class="row">
+      <div class="col-sm-6">
+        <h3>軟式野球部 SDパワーズ</h3>
+        <p>　野球愛好家で結成している軟式野球部です。</p>
+        <p>　主に土曜日に部活を行っています。</p></li>
+<p align="center"><a href="tags/baseball/" class="btn btn-primary btn-lg margin-t-20" role="button">SDパワーズ活動報告</a></p>
+      </div>
+      <div class="col-sm-6">
+        <figure>
+        <img src="images/baseball.jpg" alt="軟式野球部 SDパワーズ" class="img-responsive img-thumbnail pull-left" data-action="zoom" />
+        <figcaption>軟式野球部 SDパワーズ</figcaption>
+        </figure>
+      </div>
+    </div>
+    </section>
+  </div>
+  </div>
+  <footer class="article-footer">
+    <div class="content-inner">
+    <nav class="p-crumb">
+    </nav>
+    </div>
+  </footer>
+</article>

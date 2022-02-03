@@ -1,0 +1,8 @@
+{{ if or (.Paginator.HasPrev) (.Paginator.HasNext) }}
+  <nav class="text-center">
+  <ul class="pagination">
+    {{ partial "func.pagination_list" . }}
+  </ul>
+  </nav>
+{{ end }}
+<!-- エンコード保持用テキスト -->

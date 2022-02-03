@@ -1,0 +1,217 @@
++++
+draft = false
+date = "2017-01-21T12:28:37+09:00"
+title = "会社案内"
+
++++
+
+        <div class="page-header2 text-left">
+          <h2 class="headline rich_font h1_title">会社情報</h2>
+        </div>
+        <section class="row">
+          <section class="note margin-t-20">
+          <div class="row">
+            <div class="col-sm-8 col-sm-offset-2">
+              <figure class="center-block"><img src="images/corporate_nen6_.jpg" alt="三共電気株式会社表札" class="img-responsive center-block" />
+              <figcaption>三共電気(株) & エスディライフ(株) 会社情報</figcaption>
+              </figure>
+            </div>
+          </div>
+          </section>
+          <!--表テスト▼-->
+          <section class="note margin-t-20">
+          <div class="row">
+          <div class="col-sm-10 col-sm-offset-1">
+          <table class="margin-t-20">
+            <tr>
+              <th>名称</th>
+              <td>三共電気株式会社</td>
+            </tr>
+            <tr>
+              <th>本社所在地</th>
+              <td>
+                <p>福岡市西区福重1丁目14-25</p>
+                <p>TEL 092-883-8588</p>
+                <p>FAX 092-883-8810</p>
+              </td>
+            </tr>
+            <tr>
+              <th>役員</th>
+              <td>
+                <p>代表取締役会長　出口　守</p>
+                <p>代表取締役社長　木原　和英</p>
+                <p>常務取締役　中村　雄二郎</p>
+                <p>常務取締役　時松　博幸</p>
+                <p>取締役営業部長　副島　健太</p>
+                <p>取締役営業部長　山口　一郎</p>
+                <p>取締役　出口　和子 </p>
+                <p>監査役　木原　直美</p>
+              </td>
+            </tr>
+            <tr>
+              <th>創業年月</th>
+              <td>昭和50年5月</td>
+            </tr>
+            <tr>
+              <th>設立年月</th>
+              <td>昭和51年6月</td>
+            </tr>
+            <tr>
+              <th>資本金</th>
+              <td>7,200万円</td>
+            </tr>
+            <tr>
+              <th>従業員数</th>
+              <td>79名（男子59名、女子20名）</td>
+            </tr>
+            <tr>
+              <th>平均年齢</th>
+              <td>37歳</td>
+            </tr>
+            <tr>
+              <th>取引先金融機関</th>
+              <td>
+                <p>西日本シティ銀行　原支店</p>
+                <p>十八銀行　西福岡支店</p>
+                <p>筑邦銀行　姪浜支店</p>
+                <p>福岡銀行　姪浜支店</p>
+              </td>
+            </tr>
+            <tr>
+              <th>主な販売先</th>
+              <td>福岡県内電工事業者　約800社</td>
+            </tr>
+          </table>
+		  </div>
+		  </div>
+          </section>
+          <!--表テスト▲--> 
+        </section>
+        <div class="page-header text-left">
+          <h2 class="headline rich_font h1_title">沿 革</h2>
+        </div>
+        <section class="row">
+          <!--沿革表テスト▼-->
+          <div class="col-sm-12">
+          <table class="table_01">
+            <tr>
+              <th class="table_01">1975</th>
+              <th class="table_01"><small>昭和50年5月</small></th>
+              <td class="table_01">福岡市西区原にて三共電気商会として、現会長出口守個人創業</td>
+              <td rowspan="5" class="table_02"><img src="images/corporate_nen1.jpg" class="img-responsive" alt="出口守創業当時" /></td>
+            </tr>
+            <tr>
+              <th class="table_01">1976</th>
+              <th class="table_01"><small>昭和51年6月</small></th>
+              <td class="table_01">会社設立 有限会社三共電気商会として会社を設立する </td>
+            </tr>
+            <tr>
+              <th class="table_01">1977</th>
+              <th class="table_01"><small>昭和52年1月</small></th>
+              <td class="table_01">西区次郎丸に移転 </td>
+            </tr>
+            <tr>
+              <th class="table_01">1985</th>
+              <th class="table_01"><small>昭和60年3月</small></th>
+              <td class="table_01">南営業所を開設する</td>
+            </tr>
+            <tr>
+              <th class="table_01">1985</th>
+              <th class="table_01"><small>昭和60年11月</small></th>
+              <td class="table_01">早良区有田に本社事務所移転</td>
+            </tr>
+            <tr>
+              <th class="table_01">1986</th>
+              <th class="table_01"><small>昭和61年6月</small></th>
+              <td class="table_01">三共電気株式会社に改組</td>
+              <td rowspan="5" class="table_03"><img src="images/corporate_nen2.jpg" class="img-responsive" alt="三共電気㈱拾六町新社屋" /></td>
+            </tr>
+            <tr>
+              <th class="table_01">1989</th>
+              <th class="table_01"><small>平成1年9月</small></th>
+              <td class="table_01">福岡市東区松田へ東営業所を開設する </td>
+            </tr>
+            <tr>
+              <th class="table_01">1991</th>
+              <th class="table_01"><small>平成3年9月</small></th>
+              <td class="table_01">西区拾六町へ本社新設</td>
+            </tr>
+            <tr>
+              <th class="table_01">1992</th>
+              <th class="table_01"><small>平成4年11月</small></th>
+              <td class="table_01">筑豊営業所を開設する</td>
+            </tr>
+            <tr>
+              <th class="table_01">1994</th>
+              <th class="table_01"><small>平成6年10月</small></th>
+              <td class="table_01">筑紫郡那珂川町へ南営業所を移設</td>
+            </tr>
+            <tr>
+              <th class="table_01">1998</th>
+              <th class="table_01"><small>平成10年6月</small></th>
+              <td class="table_01">西区福重へ新社屋竣工、本社移転</td>
+              <td rowspan="5" class="table_03"><img src="images/corporate_nen3.jpg" class="img-responsive" alt="出口守創業当時" /></td>
+            </tr>
+            <tr>
+              <th class="table_01">2000</th>
+              <th class="table_01"><small>平成12年9月</small></th>
+              <td class="table_01">糟屋郡粕屋町へ東営業所を移設</td>
+            </tr>
+            <tr>
+              <th class="table_01">2006</th>
+              <th class="table_01"><small>平成18年4月</small></th>
+              <td class="table_01">朝倉市一木へ朝倉営業所を新設</td>
+            </tr>
+            <tr>
+              <th class="table_01">2008</th>
+              <th class="table_01"><small>平成20年1月</small></th>
+              <td class="table_01">飯塚市忠隈へ筑豊営業所を移設</td>
+            </tr>
+            <tr>
+              <th class="table_01">2013</th>
+              <th class="table_01"><small>平成25年8月</small></th>
+              <td class="table_01">代表取締役社長に木原和英が就任</td>
+            </tr>
+            <tr>
+              <th class="table_01">2015</th>
+              <th class="table_01"><small>平成27年7月</small></th>
+              <td class="table_01">沖縄市知花へ沖縄営業所を開設</td>
+              <td class="table_04"></td>
+            </tr>
+          </table>
+		  </div>
+		  </section>
+          <!--沿革表テスト▲-->
+          <!--写真横並び▼-->
+          <section class="note margin-t-20">
+          <div class="row">
+            <div class="col-sm-5 col-sm-offset-1">
+            <figure>
+            <img src="images/new_president.jpg" alt="社長就任パーティ" class="img-responsive img-thumbnail pull-right" data-action="zoom">
+            <figcaption>社長就任パーティ</figcaption>
+            </figure>
+            </div>
+            <div class="col-sm-5">
+            <figure>
+            <img src="images/all_member_40th.jpg" alt="創業40周年記念社員旅行" class="img-responsive img-thumbnail pull-right" data-action="zoom">
+            <figcaption>創業40周年記念社員旅行</figcaption>
+            </figure>
+            </div>
+          </div>
+          <div class="row margin-t-20">
+            <div class="col-sm-5 col-sm-offset-1">
+            <figure>
+            <img src="images/corporate_nen4_.jpg" alt="出口守会長と出口和子取締役" class="img-responsive img-thumbnail pull-right" data-action="zoom">
+            <figcaption>出口守会長と出口和子取締役</figcaption>
+            </figure>
+            </div>
+            <div class="col-sm-5">
+            <figure>
+            <img src="images/corporate_nen5_.jpg" alt="集合写真" class="img-responsive img-thumbnail pull-right" data-action="zoom">
+            <figcaption>2017年集合写真</figcaption>
+            </figure>
+            </div>
+          </div>
+          </section>          
+          <!--写真横並び▲--> 
+		</section>

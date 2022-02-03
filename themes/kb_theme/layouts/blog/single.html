@@ -1,0 +1,25 @@
+{{ define "title" }}{{ .Title }} - {{ end }}
+
+{{ define "meta" }}
+{{ partial "single_meta.html" . }}
+{{ partial "single_json_ld.html" . }}
+{{ end }}
+
+{{ define "main" }}
+{{ partial "breadcrumb.sdkk.html" . }}
+
+<div class="row">
+{{ if .Params.no_submenu }}
+  <div class="col-sm-12">
+    {{ .Render "summary.blog" }}
+  </div>
+{{ else }}
+  <div class="col-sm-9">
+    {{ .Render "summary.blog" }}
+  </div>
+  <div class="col-sm-3">
+    {{ partial "sidebar.sdkk.html" . }}
+  </div>
+{{ end }}
+</div>
+{{ end }}
