@@ -3,9 +3,13 @@ defaultContentLanguage = "ja"
 title = "三共電気株式会社 公式サイト(福岡市西区/電材.電設資材 卸.販売/092-883-8588)"
 ### baseurl = "https://www.fukuoka.ml/"
 ### baseurl = "https://web.koura.biz/sdkka/"
-baseurl = "http://www.sdkk.jp/"
+### baseurl = "http://www.sdkk.jp/"
+baseurl = "/"
 HasCJKLanguage = true
 theme = "kb_theme"
+
+[markup.goldmark.renderer]
+    unsafe = true
 
 [params]
     side_blog_num = 3
