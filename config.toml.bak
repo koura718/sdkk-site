@@ -7,9 +7,6 @@ baseurl = "http://www.sdkk.jp/"
 HasCJKLanguage = true
 theme = "kb_theme"
 
-[markup.goldmark.renderer]
-    unsafe = true
-
 [params]
     side_blog_num = 3
     fontfamily = "Segoe UI, Verdana, 游ゴシック, YuGothic, Hiragino Kaku Gothic ProN, Meiryo, sans-serif;"

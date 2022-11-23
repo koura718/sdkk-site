@@ -32,4 +32,3 @@ thumbnail = "images/office_okinawa.jpg"
           </div>
         </div>
         <div id="map"></div>
-		

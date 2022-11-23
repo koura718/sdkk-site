@@ -3,7 +3,7 @@ draft = false
 date = "2017-01-27T09:52:34+09:00"
 title = "理念・代表者挨拶"
 +++
-{{< rawhtml >}}        <img src="images/vision_02a.jpg" class="img-responsive img-rounded" alt="三共電気株式会社トップ">
+        <img src="images/vision_02a.jpg" class="img-responsive img-rounded" alt="三共電気株式会社トップ">
         <div class="page-header text-left">
           <h2 class="headline rich_font h1_title">社是</h2>
         </div>
@@ -15,7 +15,7 @@ title = "理念・代表者挨拶"
           <div class="post_content"> <img src="images/recruit_03.jpg" class="img-responsive img_vision img-thumbnail" align="right" alt="代表取締役社長木原和英">
 <p>平素は格別のご高配を賜り、心から感謝申し上げます。<br>
 　弊社は電材卸売総合商社として、福岡県下を拠点に、九州・沖縄から中国・四国地方まで幅広く営業展開を行い、社会と地域へ貢献していく企業を日々目指して邁進しております。<br>
-　創業以来、先代の理念である「お客様第一主義」をモットーに、「ハートのある営業」をより一層実現し、顧客満足度の向上を追求するとともに信頼を築き、皆様に愛される企業でありたいと考えています。<br>
+　創業以来、先代の理念である「お客様第一主義」を信条として、「ハートのある営業」をより一層実現し、顧客満足度の向上を追求するとともに信頼を築き、皆様に愛される企業でありたいと考えています。<br>
 さらに、次世代へ需要や環境にも対応できる新たな組織づくりにも力を入れ、未来に希望ある企業に挑戦し続けることが私たちの使命だと考えております。<br>
 　今後もみなさまのご支援ご愛顧賜りますよう、よろしくお願い申し上げます。</p>
             <img src="images/vision_03_.png" class="img-responsive" align="right" alt="代表取締役社長木原和英"> </div>
@@ -59,4 +59,4 @@ title = "理念・代表者挨拶"
             </p>
           </div>
         </div>
-{{< /rawhtml >}}
+<!-- 更新日 2021-12-16 -->

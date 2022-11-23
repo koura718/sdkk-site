@@ -4,7 +4,7 @@ date = "2017-01-21T12:28:37+09:00"
 title = "会社案内"
 
 +++
-[]()<!-- for Markdown -->
+[]()
         <div class="page-header2 text-left">
           <h2 class="headline rich_font h1_title">会社情報</h2>
         </div>
